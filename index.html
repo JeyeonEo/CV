@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>redirect to google page..</title>
+  <script type="text/javascript">
+    var targetURL = "https://sites.google.com/view/jeyeon-eo/home";
+
+    // redirection 
+    function redirectToGoogle() {
+      window.location.replace(targetURL);
+    }
+
+    // redirect after page loading 
+    window.onload = redirectToGoogle;
+  </script>
+</head>
+<body>
+  <h1>redirecting...</h1>
+</body>
+</html>
